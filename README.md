@@ -1,7 +1,7 @@
 # EsoBot
 Main  automation module for Sh*pe project
 Run from main file in IDE. 
-Bot will display CLI with site options, select END & Entry module. 
+Bot will display CLI with site options, select E*ND & Entry module. 
 Will check VPNREADY endpoint before requesting headers & sending request to Sh*pe protected API to avoid hanging on reconnecting VPN. 
 Requests set of headers from EsoLinker server locally (start linker first) before using the grabbed headers to allow request to pass API protection. 
 Entry module logs in, obtains relevant account details & enters according to raffle ID(must set sizeID to active raffle ID for this to work, current ID in payload is inactive).
